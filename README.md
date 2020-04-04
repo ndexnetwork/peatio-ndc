@@ -1,4 +1,5 @@
 # Peatio::NDC
+[![Gem Version](https://badge.fury.io/rb/peatio-ndc.svg)](https://badge.fury.io/rb/peatio-ndc)
 
 Peatio ndc plugin for nPro [peatio] stack
 
