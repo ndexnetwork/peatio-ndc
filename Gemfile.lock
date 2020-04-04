@@ -6,7 +6,8 @@ PATH
       better-faraday (~> 1.0.5)
       faraday (~> 0.15.4)
       memoist (~> 0.16.0)
-      peatio (~> 0.6.1)
+      peatio (~> 0.6.3)
+      net-http-persistent (~> 3.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -55,7 +56,8 @@ GEM
       metaclass (~> 0.0.1)
     multipart-post (2.1.1)
     mysql2 (0.5.2)
-    peatio (0.6.1)
+    net-http-persistent (~> 3.0.1)
+    peatio (0.6.3)
       activemodel (~> 5.2.3)
       amqp
       bunny
