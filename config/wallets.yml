@@ -1,0 +1,44 @@
+- name:             NDC Deposit Wallet
+  blockchain_key:   ndc-mainnet
+  currency_id:      ndc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             deposit    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1          # Number of signatures required for performing withdraw.
+  max_balance:      0.0
+  status:           active
+  gateway:          ndcd  # Gateway client name.
+  settings:
+    #
+    # NDCd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
+
+- name:             NDC Hot Wallet
+  blockchain_key:   ndc-mainnet
+  currency_id:      ndc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             hot     # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      500000.0
+  status:           active
+  gateway:          ndcd   # Gateway client name.
+  settings:
+    #
+    # NDCd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
+
+- name:             NDC Warm Wallet
+  blockchain_key:   ndc-mainnet
+  currency_id:      ndc
+  # Address where deposits will be collected to.
+  address:          'NyWkTPkNRdpTDSfPw7gxUt9cEaC5PSsP3Y'  # IMPORTANT: Always wrap this value in quotes!
+  kind:             warm    # Wallet kind (deposit, hot, warm, cold or fee).
+  nsig:             1       # Number of signatures required for performing withdraw.
+  max_balance:      500000.0
+  status:           active
+  gateway:          ndcd   # Gateway client name.
+  settings:
+    #
+    # NDCd gateway client settings.
+    uri:          http://user:password@127.0.0.1:13519
