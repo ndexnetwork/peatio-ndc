@@ -102,7 +102,7 @@ GEM
       pry (~> 0.13.0)
     public_suffix (4.0.5)
     rack (2.2.2)
-    rake (10.5.0)
+    rake (13.0.1)
     rspec (3.9.0)
       rspec-core (~> 3.9.0)
       rspec-expectations (~> 3.9.0)
@@ -140,7 +140,7 @@ DEPENDENCIES
   mocha (~> 1.8)
   peatio-ndc!
   pry-byebug (~> 3.7)
-  rake (~> 10.0)
+  rake (~> 13.0)
   rspec (~> 3.0)
   webmock (~> 3.5)
 
