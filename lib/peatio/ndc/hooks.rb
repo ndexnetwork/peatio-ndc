@@ -26,7 +26,7 @@ module Peatio
         end
 
         def register
-          Peatio::Blockchain.registry[:Ndc] = Ndc::Blockchain.new
+          Peatio::Blockchain.registry[:ndc] = Ndc::Blockchain.new
           Peatio::Wallet.registry[:ndcd] = Ndc::Wallet.new
         end
       end

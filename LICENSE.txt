@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2019 Tanvir Rahaman aka BitBD
+Copyright (c) 2020 Md Tanvir Rahaman, NEXBIT.IO
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

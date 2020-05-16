@@ -7,24 +7,13 @@ Gem::Specification.new do |spec|
   spec.name          = "peatio-ndc"
   spec.version       = Peatio::Ndc::VERSION
   spec.authors       = ["BitBD"]
-  spec.email         = ["developers@nexbit.io"]
+  spec.email         = ["me@bitbd.co"]
 
   spec.summary       = %q{Gem for extending Peatio plugable system with Ndc implementation.}
-  spec.description   = %q{NDC Peatio gem which implements Peatio::Blockchain::Abstract & Peatio::Wallet::Abstract to make NDC easy integration in peatio platform}
-  spec.homepage      = "https://ndexnetwork.com/"
+  spec.description   = %q{Ndc Peatio gem which implements Peatio::Blockchain::Abstract & Peatio::Wallet::Abstract.}
+  spec.homepage      = "https://ndcwallet.pro/"
   spec.license       = "MIT"
 
-  # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
- if spec.respond_to?(:metadata)
-
-    spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/ndexnetwork/peatio-ndc"
-    spec.metadata["changelog_uri"] = "https://github.com/ndexnetwork/peatio-ndc/blob/master/CHANGELOG.md"
-  else
-    raise "RubyGems 2.0 or newer is required to protect against " \
-      "public gem pushes."
-  end
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
@@ -38,12 +27,12 @@ Gem::Specification.new do |spec|
   spec.add_dependency "better-faraday", "~> 1.0.5"
   spec.add_dependency "faraday", "~> 0.15.4"
   spec.add_dependency "memoist", "~> 0.16.0"
-  spec.add_dependency "peatio", "~> 0.6.3"
-  spec.add_dependency "net-http-persistent", "~> 3.0.1"
+  spec.add_dependency "peatio", "= 2.4.3"
+  
 
-  spec.add_development_dependency "bundler", "~> 1.17"
+  spec.add_development_dependency "bundler", "~> 1.17.3"
   spec.add_development_dependency "mocha", "~> 1.8"
-  spec.add_development_dependency "pry-byebug"
+  spec.add_development_dependency "pry-byebug", "~> 3.7"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "webmock", "~> 3.5"

@@ -1,8 +1,8 @@
-- key:               ndc-mainnet
-  name:              Ndc Mainnet
-  client:            ndcd                             # API client name.
-  server:            http://user:password@127.0.0.1:13519 # Public Nexbit node endpoint.
-  height:            1200                                # Initial block number from which sync will be started.
+- key:               ndc-mainet
+  name:              NDC Mainet
+  client:            ndc                                  # API client name.
+  server:            http://user:password@127.0.0.1:17798 # Public ndc node endpoint.
+  height:            5000                                 # Initial block number from which sync will be started.
   min_confirmations: 6                                    # Minimal confirmations needed for withdraw and deposit confirmation.
   explorer:
     address:         https://explorer.ndcwallet.pro/address/#{address}
